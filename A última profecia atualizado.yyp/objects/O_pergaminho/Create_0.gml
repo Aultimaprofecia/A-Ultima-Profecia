@@ -1,0 +1,3 @@
+coletado = false;
+
+perto = false;
