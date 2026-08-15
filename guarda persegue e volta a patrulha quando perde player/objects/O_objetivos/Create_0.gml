@@ -1,0 +1,1 @@
+global.pergaminhos = 0;
