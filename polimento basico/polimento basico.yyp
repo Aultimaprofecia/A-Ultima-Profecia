@@ -32,6 +32,7 @@
   },
   "name":"polimento basico",
   "resources":[
+    {"id":{"name":"O_controle_tela","path":"objects/O_controle_tela/O_controle_tela.yy",},},
     {"id":{"name":"O_guarda_pai","path":"objects/O_guarda_pai/O_guarda_pai.yy",},},
     {"id":{"name":"O_luarca","path":"objects/O_luarca/O_luarca.yy",},},
     {"id":{"name":"O_madeira","path":"objects/O_madeira/O_madeira.yy",},},
