@@ -1,3 +1,36 @@
+
+var hud_piscar = instance_find(O_vidas, 0);
+
+// Se morreu, para de piscar e interrompe o movimento
+if (morto)
+{
+    image_alpha = 1;
+    exit;
+}
+
+// ==========================================
+// PISCAR DURANTE A INVULNERABILIDADE
+// ==========================================
+
+if (instance_exists(hud_piscar) && hud_piscar.invulneravel)
+{
+    // Alterna entre visível e invisível
+    if ((current_time div 100) mod 2 == 0)
+    {
+        image_alpha = 1;
+    }
+    else
+    {
+        image_alpha = 0;
+    }
+}
+else
+{
+    // Aparência normal quando não estiver invulnerável
+    image_alpha = 1;
+}
+
+
 // ==========================================
 // PEGAR INPUT
 // ==========================================
@@ -201,3 +234,28 @@ if (dash_tempo > 0)
 }
 
 image_speed = 1;
+// ==========================================
+// INVULNERABILIDADE APÓS DANO
+// ==========================================
+
+if (invulneravel && !morto)
+{
+    tempo_invulneravel--;
+    tempo_piscada++;
+
+    // Piscar a cada 6 frames
+    if (tempo_piscada >= 6)
+    {
+        visivel_dano = !visivel_dano;
+        tempo_piscada = 0;
+    }
+
+    // Terminou a imunidade
+    if (tempo_invulneravel <= 0)
+    {
+        invulneravel = false;
+        visivel_dano = true;
+        tempo_piscada = 0;
+    }
+}
+

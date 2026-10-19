@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"final do tutorial com texto e ajustes feitos",
-    "path":"final do tutorial com texto e ajustes feitos.yyp",
+    "name":"sprites_HUD",
+    "path":"folders/sprites_HUD.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

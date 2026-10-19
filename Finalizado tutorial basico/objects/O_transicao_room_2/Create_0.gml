@@ -1,6 +1,5 @@
-perto = false;
 mensagem = "";
-tempo_mensagem = 0;
+mensagem_aberta = false;
 
 if (!variable_global_exists("chave_coletada"))
 {

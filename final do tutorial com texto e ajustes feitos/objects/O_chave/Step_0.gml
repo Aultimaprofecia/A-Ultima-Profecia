@@ -1,3 +1,5 @@
+
+
 var distancia = point_distance(x, y, O_pai.x, O_pai.y);
 
 if (distancia < 60)
@@ -6,7 +8,7 @@ if (distancia < 60)
     {
         coletada = true;
         global.chave_coletada = true;
-
+global.chave_room = room;
         instance_destroy();
     }
 }

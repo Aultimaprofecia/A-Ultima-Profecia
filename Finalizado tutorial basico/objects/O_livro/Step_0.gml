@@ -52,6 +52,8 @@ if (distancia < 60)
         if (verdadeiro)
         {
             global.livro_encontrado = true;
+            global.livro_coletado = true;
+
             global.livro_tempo = room_speed * 2;
 
             mensagem = "Livro verdadeiro!";
@@ -64,7 +66,6 @@ if (distancia < 60)
         }
     }
 }
-
 
 // ==========================================
 // CONTADOR PARA DESTRUIR OS LIVROS

@@ -1,3 +1,4 @@
+
 if (mensagem_aberta)
 {
     var centro_x = display_get_gui_width() / 2;
@@ -6,19 +7,21 @@ if (mensagem_aberta)
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
 
-    // FUNDO
-draw_set_color(make_color_rgb(80, 45, 20));
+// PERGAMINHO
+draw_set_color(c_black);
+draw_set_alpha(1);
 
-    draw_roundrect(
-        centro_x - 300,
-        centro_y - 130,
-        centro_x + 300,
-        centro_y + 130,
-        false
-    );
+draw_sprite_stretched(
+    S_mensagem,
+    0,
+    centro_x - 350,
+    centro_y - 150,
+    700,
+    300
+);
 
     // TÍTULO
-    draw_set_color(c_white);
+    draw_set_color(c_black);
 
     draw_text_transformed(
         centro_x,

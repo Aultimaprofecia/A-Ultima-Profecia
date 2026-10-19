@@ -1,3 +1,5 @@
+
+
 // ESTADO
 estado = 0;
 

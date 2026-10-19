@@ -1,6 +1,6 @@
 draw_self();
 
-if (perto)
+if (perto && !mensagem_aberta)
 {
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
@@ -29,16 +29,6 @@ if (perto)
         "[V] Voltar"
     );
 
-    if (tempo_mensagem > 0)
-    {
-        draw_text(
-            x,
-            y - 90,
-            mensagem
-        );
-    }
-
-    draw_set_color(c_white);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
 }

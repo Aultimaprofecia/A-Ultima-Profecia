@@ -1,3 +1,5 @@
+
+
 // ==========================
 // HUD DE VIDAS
 // ==========================
@@ -74,4 +76,47 @@ else
         c_white,
         1
     );
+}
+// ==========================================
+// TELA DE MORTE
+// ==========================================
+
+var jogador = instance_find(O_pai, 0);
+
+if (instance_exists(jogador) && jogador.morto)
+{
+    var gw = display_get_gui_width();
+    var gh = display_get_gui_height();
+
+    // Fundo escuro
+    draw_set_alpha(0.85);
+    draw_set_color(c_black);
+    draw_rectangle(0, 0, gw, gh, false);
+    draw_set_alpha(1);
+
+    // Título
+    draw_set_color(c_white);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+
+    draw_text(gw / 2, gh / 2 - 70, "VOCE MORREU");
+
+    // Botão Reviver
+    var bx1 = gw / 2 - 110;
+    var bx2 = gw / 2 + 110;
+    var by1 = gh / 2 + 25;
+    var by2 = gh / 2 + 95;
+
+    draw_set_color(make_color_rgb(100, 55, 35));
+    draw_rectangle(bx1, by1, bx2, by2, false);
+
+    draw_set_color(c_yellow);
+    draw_rectangle(bx1, by1, bx2, by2, true);
+
+    draw_set_color(c_white);
+    draw_text(gw / 2, (by1 + by2) / 2, "REVIVER");
+
+    // Restaurar alinhamentos
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
 }

@@ -134,3 +134,23 @@ if (!variable_global_exists("pergaminhos_coletados"))
 {
     global.pergaminhos_coletados = [];
 }
+// ==========================================
+// SISTEMA DE VIDA E MORTE
+// ==========================================
+
+if (!variable_global_exists("vidas"))
+{
+    global.vidas = 3;
+}
+
+invulneravel = false;
+tempo_invulneravel = 0;
+
+tempo_piscada = 0;
+visivel_dano = true;
+
+morto = false;
+
+// Guardar o ponto inicial da room
+x_inicial = x;
+y_inicial = y;

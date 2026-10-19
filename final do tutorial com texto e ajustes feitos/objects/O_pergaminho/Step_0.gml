@@ -1,3 +1,5 @@
+
+
 var distancia = point_distance(x, y, O_pai.x, O_pai.y);
 
 perto = distancia < 40;
