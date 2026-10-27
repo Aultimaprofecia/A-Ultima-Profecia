@@ -11,8 +11,8 @@
   "name":"O_tutorial",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_objs",
-    "path":"folders/Obj_objs.yy",
+    "name":"objs_mecannica_sem_sprite",
+    "path":"folders/Obj_objs/objs_mecannica_sem_sprite.yy",
   },
   "parentObjectId":null,
   "persistent":false,

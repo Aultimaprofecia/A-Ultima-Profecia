@@ -8,8 +8,8 @@
   "name":"O_selecao_personagem_THAR",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_personagens",
-    "path":"folders/Obj_personagens.yy",
+    "name":"selecao_personagens",
+    "path":"folders/Obj_personagens/selecao_personagens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

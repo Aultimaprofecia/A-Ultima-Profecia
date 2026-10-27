@@ -6,8 +6,8 @@
   "name":"O_luarca",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_personagens",
-    "path":"folders/Obj_personagens.yy",
+    "name":"personagens_principais",
+    "path":"folders/Obj_personagens/personagens_principais.yy",
   },
   "parentObjectId":{
     "name":"O_pai",

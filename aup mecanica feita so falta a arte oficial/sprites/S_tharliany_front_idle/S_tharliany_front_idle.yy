@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites_personagens",
-    "path":"folders/Sprites_personagens.yy",
+    "name":"Tharliany",
+    "path":"folders/Sprites_personagens/Tharliany.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

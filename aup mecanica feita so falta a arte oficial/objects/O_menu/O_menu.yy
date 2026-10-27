@@ -10,8 +10,8 @@
   "name":"O_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_personagens",
-    "path":"folders/Obj_personagens.yy",
+    "name":"objs_mecannica_sem_sprite",
+    "path":"folders/Obj_objs/objs_mecannica_sem_sprite.yy",
   },
   "parentObjectId":null,
   "persistent":false,

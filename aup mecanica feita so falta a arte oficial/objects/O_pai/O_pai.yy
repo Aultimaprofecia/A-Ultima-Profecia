@@ -11,8 +11,8 @@
   "name":"O_pai",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_personagens",
-    "path":"folders/Obj_personagens.yy",
+    "name":"mecanica",
+    "path":"folders/Obj_personagens/mecanica.yy",
   },
   "parentObjectId":null,
   "persistent":false,

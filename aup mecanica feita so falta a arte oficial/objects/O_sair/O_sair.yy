@@ -6,8 +6,8 @@
   "name":"O_sair",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_objs",
-    "path":"folders/Obj_objs.yy",
+    "name":"objs_macanica_com_sprite",
+    "path":"folders/Obj_objs/objs_macanica_com_sprite.yy",
   },
   "parentObjectId":null,
   "persistent":false,

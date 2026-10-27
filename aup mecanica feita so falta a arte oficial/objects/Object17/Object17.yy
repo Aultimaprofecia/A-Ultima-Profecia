@@ -6,8 +6,8 @@
   "name":"Object17",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_objs",
-    "path":"folders/Obj_objs.yy",
+    "name":"objs_cenario",
+    "path":"folders/Obj_objs/objs_cenario.yy",
   },
   "parentObjectId":null,
   "persistent":false,

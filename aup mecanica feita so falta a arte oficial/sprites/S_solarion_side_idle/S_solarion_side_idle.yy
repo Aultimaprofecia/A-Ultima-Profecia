@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites_personagens",
-    "path":"folders/Sprites_personagens.yy",
+    "name":"Solarion",
+    "path":"folders/Sprites_personagens/Solarion.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"aup mecanica feita so falta a arte oficial",
-    "path":"aup mecanica feita so falta a arte oficial.yyp",
+    "name":"Sprites_vida",
+    "path":"folders/Sprites_vida.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -6,8 +6,8 @@
   "name":"O_soldado3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj_personagens",
-    "path":"folders/Obj_personagens.yy",
+    "name":"NPCS",
+    "path":"folders/Obj_personagens/NPCS.yy",
   },
   "parentObjectId":{
     "name":"O_guarda_pai",
