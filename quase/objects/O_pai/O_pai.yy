@@ -33,6 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"S_tharliany_front_idle",
+    "path":"sprites/S_tharliany_front_idle/S_tharliany_front_idle.yy",
+  },
   "visible":true,
 }

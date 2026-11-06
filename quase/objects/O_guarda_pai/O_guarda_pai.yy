@@ -36,6 +36,9 @@
     "name":"S_soldado7",
     "path":"sprites/S_soldado7/S_soldado7.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"S_soldado3",
+    "path":"sprites/S_soldado3/S_soldado3.yy",
+  },
   "visible":true,
 }
